@@ -11,7 +11,7 @@ Open Privileged Access Management (PAM)
             │            │   │   └───────────────────┘
             │ Authorizer │   │
 ┌───────┐   │            │   │   ╭───────────────────╮
-│ Vault ├───┤            ├───┼───┤ <a href="https://github.com/markkurossi/pkcs11─provider">PKCS #11 Provider</a> │
+│ Vault ├───┤            ├───┼───┤ <a href="https://github.com/markkurossi/pkcs11-provider">PKCS #11 Provider</a> │
 └───────┘   │  ╭─────╮   │   │   ╰───────────────────╯
             │  │ OPA │   │   │
             │  ╰─────╯   │   │   ┌───────────────────┐
@@ -19,6 +19,6 @@ Open Privileged Access Management (PAM)
             │            │   │   └───────────────────┘
             └────────────┘   │
                              │   ╭───────────────────╮
-                             └───┤  <a href="https://github.com/markkurossi/pam─cert">PAM Certificate</a>  │
+                             └───┤  <a href="https://github.com/markkurossi/pam-cert">PAM Certificate</a>  │
                                  ╰───────────────────╯
 </pre>
