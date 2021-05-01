@@ -3,7 +3,7 @@ Open Privileged Access Management (PAM)
 
 ![Open PAM](open-pam.png)
 
-<pre>
+<pre style="font-family: menlo, consolas, monospace; font-size: 10pt;">
                                  ┌───────────────────┐
             ┌────────────┐   ┌───┤     SSH Agent     │
             │            │   │   └───────────────────┘
@@ -17,6 +17,10 @@ Open Privileged Access Management (PAM)
             │  └─────┘   │   │   └───────────────────┘
             │            │   │
             │            │   │   ┌───────────────────┐
-            └────────────┘   └───┤      PAM RDP      │
+            └────────────┘   ├───┤      PAM RDP      │
+                             │   └───────────────────┘
+                             │
+                             │   ┌───────────────────┐
+                             └───┤  PAM Certificate  │
                                  └───────────────────┘
 </pre>
